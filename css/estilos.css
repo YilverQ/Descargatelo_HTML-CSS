@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, #4b394f,#403e61);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(1, 1, 1, 0.55);
+box-shadow: 1px 1px 3px 1px rgba(1, 1, 1, 0.55);
+    z-index: 6;
+}
+div.sabana{
+    background: rgba(251, 5, 242, 0.36);
+    width: 100%;
+    height: 500px;
+}
+header ul{
+    float: right;
+    display: flex;
+    position: relative;
+    top: 60px
+}
+header li{
+    padding: 10px 40px;
+    list-style: none;
+}
+header a{
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    font-size: 20px;
+    font-family: arial;
+    text-decoration: none;
+    color:white;
+    text-shadow: 0px 1px 1px  #000;
+}
+header a:hover{
+    border-bottom: 3px solid white;
+}
+
+@font-face {
+  font-family: "Beautiful Lovers Personal Use";
+  src: url("../fuentes/Beautiful Lovers Personal Use.ttf");
+}
+h1{
+    text-shadow: 2px 2px 2px #000;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-size: 50px;
+    color: white;
+	font-family:Beautiful Lovers Personal Use;
+	
+}
+header span{
+    color: #fb05f2;
+}
+
+div.frase{
+    top: 200px;
+    position: relative;
+    display: block;
+}
+div.frase h2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    display: table;
+    text-shadow: 1px 2px 2px  #e9e9;
+}
+article{
+    width: 90%;
+    margin: auto;
+    background: #e9e9e9;
+    box-shadow: 1px 1px 3px 1px rgba(1, 1, 1, 0.55);
+    z-index: 4;
+    overflow: hidden;
+}
+div.destacado{
+	overflow: hidden;
+}
+div.rosado{
+    box-shadow: 1px 1px 3px 1px rgba(1, 1, 1, 0.55);
+    background:linear-gradient(to right, #a848bc,#b83ea1,#cf3e5d);
+    width: 100%;
+    height: 220px;
+    justify-content: space-around;
+    display:flex;
+    flex-wrap: wrap;
+}
+div.rosado img{
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 0px;
+    transition: all .3s;
+    display: block;
+}
+div.rosado img:hover{
+    transition: all .2s;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4b394f,#403e61);
+}
+div.destacado{
+    height: 400px;
+    background: #e9e9e9
+}
+div.categorias{
+    background:linear-gradient(to right, #4b394f,#403e61);
+    border:  linear-gradient(to left, #4b394f,#403e61) 2.5px solid;
+}
+div.categorias ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2px;
+}
+div.categorias li{
+    padding: 10px;
+    font-size: 20px;
+    font-family:arial black;
+    transition: all .3s;
+}
+div.categorias li:hover{
+    background:#c8417e; 
+    border-radius: 5px;
+    transition: all .3s;
+}
+div.categorias a{
+    color: #fff;
+    text-shadow: 1px 2px 2px  #000;
+}
+section.peliculas{
+    margin: 0px;
+    padding: 20px;
+}
+div.pelicula-img{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.h3{
+    margin: auto;
+    display:inline;
+}
+section.main{
+ background:linear-gradient(to right, #24062a,#3b1934,#39131b);   
+}
+section.categorias-img h2{
+    text-shadow: 2px 2px 2px #000;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+	font-family:Beautiful Lovers Personal Use;
+
+}
+section.categorias-img span{
+    color: #fb05f2;
+}
+div.hola-categorias{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.categoria2-img{
+    width: 50%;
+}
+div.categoria2-img img{
+    display: block;
+    float: right;
+    margin-left: 20px;
+}
+div.categorias2-letras{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+div.series{
+    padding: 5px;
+    margin: 0 10px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+div.series:hover{
+    border-bottom: 3px solid white;
+}
+div.series h3{
+    font-family: "Beautiful Lovers Personal Use";
+    text-shadow: 2px 2px 2px #000;
+    color: aliceblue;
+    font-size: 30px;
+}
+div.rosado2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.final{
+    width: 90%;
+    margin: auto;
+}
+div.final img{
+    margin: 10px 2px;
+    padding: 5px;
+    display: block;
+}
+div.final img:hover{
+    background: black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 710px){
+	header ul{
+    display: flex;
+flex-wrap:wrap;
+	width:99%;
+    	position: relative;
+    	top: 100px;
+}
+	h1{
+margin:auto;
+    left: 30;
+    top: 20;
+	
+}
+}
+@media screen and (max-width: 1030px){
+	div.categorias2-letras{
+   	 width: 90%;
+	margin:auto;
+}
+div.categoria2-img img{
+	display: block;
+ 	float:none;
+	margin:auto;
+
+}
+div.categoria2-img{
+    width: 100%;
+}
+	div.destacado{
+	height:680px;
+	}
+}
+@media screen and (max-width: 750px){
+	div.destacado{
+	height:980px;
+	}
+}
+@media screen and (max-width: 500px){
+	div.destacado{
+	height:1680px;
+	}
+}
